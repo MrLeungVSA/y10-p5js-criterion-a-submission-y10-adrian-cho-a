@@ -1,3 +1,11 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  @font-face {
+    font-family: CustomFont;
+    src: url('https://raw.githubusercontent.com/MrLeungVSA/y10-p5js-criterion-a-submission-y10-adrian-cho-a/Hosohuwafont.ttf');
+}
+
+@font-face {
+    font-family: CustomFont2;
+    src: url('https://raw.githubusercontent.com/MrLeungVSA/y10-p5js-criterion-a-submission-y10-adrian-cho-a/Verdana.ttf');
+}
 }
